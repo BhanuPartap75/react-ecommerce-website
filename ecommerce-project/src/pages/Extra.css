@@ -1,0 +1,23 @@
+.container{
+   min-height: calc(100vh - 60px);
+    margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para-container{
+  flex-grow:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.text{
+  text-align: center;
+  font-size: 150 px;
+  font-weight: bold;
+     color: #404040;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
